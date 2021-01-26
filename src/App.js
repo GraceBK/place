@@ -4,8 +4,8 @@ import './css/tailwind.output.css';
 
 function App() {
     return (
-        <div className="bg-gradient-to-r from-yellow-400 via-red-500 to-pink-500"> {/*className="bg-fixed bg-cover bg-center" style={{ backgroundImage: `url(${BG})` }}*/}
-            <div className="md:container md:mx-auto h-screen bg-white shadow p-5">
+        <div> {/*className="bg-fixed bg-cover bg-center" style={{ backgroundImage: `url(${BG})` }}*/}
+            <div className="md:container md:mx-auto h-screen bg-white p-5">
 
                 <ul className="flex pb-5" id="classTab" role="tablist">
                     <li className="flex-1 mr-2" role="presentation">
@@ -31,7 +31,7 @@ function App() {
                     <div className="flex flex-col">
                         <div className="-my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
                             <div className="py-2 align-middle inline-block min-w-full sm:px-6 lg:px-8">
-                                <div className="overflow-hidden sm:rounded-lg">
+                                <div className="overflow-hidden">
                                     <table className="min-w-full divide-y divide-gray-200">
                                         <thead className="bg-gray-50">
                                             <tr>
@@ -49,7 +49,7 @@ function App() {
                                     <tbody className="bg-white divide-y divide-gray-200">
                                         <tr>
                                             <td className="px-6 py-4 whitespace-nowrap">
-                                                <div className="text-sm text-gray-900">IC/R</div>
+                                                <div className="text-sm text-gray-900 font-extrabold">IC/R</div>
                                                 <div className="text-sm text-gray-500">Rouge</div>
                                             </td>
                                             <td className="px-6 py-4 whitespace-nowrap">
@@ -63,7 +63,7 @@ function App() {
                                         </tr>
                                         <tr>
                                             <td className="px-6 py-4 whitespace-nowrap">
-                                                <div className="text-sm text-gray-900">IG</div>
+                                                <div className="text-sm text-gray-900 font-extrabold">IG</div>
                                                 <div className="text-sm text-gray-500">Jaune</div>
                                             </td>
                                             <td className="px-6 py-4 whitespace-nowrap">
@@ -77,7 +77,7 @@ function App() {
                                         </tr>
                                         <tr>
                                             <td className="px-6 py-4 whitespace-nowrap">
-                                                <div className="text-sm text-gray-900">IM</div>
+                                                <div className="text-sm text-gray-900 font-extrabold">IM</div>
                                                 <div className="text-sm text-gray-500">Rouge</div>
                                             </td>
                                             <td className="px-6 py-4 whitespace-nowrap">
@@ -91,7 +91,7 @@ function App() {
                                         </tr>
                                         <tr>
                                             <td className="px-6 py-4 whitespace-nowrap">
-                                                <div className="text-sm text-gray-900">IN</div>
+                                                <div className="text-sm text-gray-900 font-extrabold">IN</div>
                                                 <div className="text-sm text-gray-500">Jaune</div>
                                             </td>
                                             <td className="px-6 py-4 whitespace-nowrap">
@@ -105,7 +105,7 @@ function App() {
                                         </tr>
                                         <tr>
                                             <td className="px-6 py-4 whitespace-nowrap">
-                                                <div className="text-sm text-gray-900">7°A</div>
+                                                <div className="text-sm text-gray-900 font-extrabold">7°A</div>
                                                 <div className="text-sm text-gray-500">Rouge</div>
                                             </td>
                                             <td className="px-6 py-4 whitespace-nowrap">
@@ -119,7 +119,7 @@ function App() {
                                         </tr>
                                         <tr>
                                             <td className="px-6 py-4 whitespace-nowrap">
-                                                <div className="text-sm text-gray-900">7°D</div>
+                                                <div className="text-sm text-gray-900 font-extrabold">7°D</div>
                                                 <div className="text-sm text-gray-500">Bleu</div>
                                             </td>
                                             <td className="px-6 py-4 whitespace-nowrap">
@@ -133,7 +133,7 @@ function App() {
                                         </tr>
                                         <tr>
                                             <td className="px-6 py-4 whitespace-nowrap">
-                                                <div className="text-sm text-gray-900">7°MS</div>
+                                                <div className="text-sm text-gray-900 font-extrabold">7°MS</div>
                                                 <div className="text-sm text-gray-500">Jaune</div>
                                             </td>
                                             <td className="px-6 py-4 whitespace-nowrap">
@@ -147,7 +147,7 @@ function App() {
                                         </tr>
                                         <tr>
                                             <td className="px-6 py-4 whitespace-nowrap">
-                                                <div className="text-sm text-gray-900">7°O</div>
+                                                <div className="text-sm text-gray-900 font-extrabold">7°O</div>
                                                 <div className="text-sm text-gray-500">Rouge</div>
                                             </td>
                                             <td className="px-6 py-4 whitespace-nowrap">
@@ -161,7 +161,7 @@ function App() {
                                         </tr>
                                         <tr>
                                             <td className="px-6 py-4 whitespace-nowrap">
-                                                <div className="text-sm text-gray-900">7°R</div>
+                                                <div className="text-sm text-gray-900 font-extrabold">7°R</div>
                                                 <div className="text-sm text-gray-500">Rouge</div>
                                             </td>
                                             <td className="px-6 py-4 whitespace-nowrap">
@@ -175,7 +175,7 @@ function App() {
                                         </tr>
                                         <tr>
                                             <td className="px-6 py-4 whitespace-nowrap">
-                                                <div className="text-sm text-gray-900">7°V</div>
+                                                <div className="text-sm text-gray-900 font-extrabold">7°V</div>
                                                 <div className="text-sm text-gray-500">Bleu</div>
                                             </td>
                                             <td className="px-6 py-4 whitespace-nowrap">
@@ -189,7 +189,7 @@ function App() {
                                         </tr>
                                         <tr>
                                             <td className="px-6 py-4 whitespace-nowrap">
-                                                <div className="text-sm text-gray-900">8°B</div>
+                                                <div className="text-sm text-gray-900 font-extrabold">8°B</div>
                                                 <div className="text-sm text-gray-500">Bleu</div>
                                             </td>
                                             <td className="px-6 py-4 whitespace-nowrap">
@@ -203,7 +203,7 @@ function App() {
                                         </tr>
                                         <tr>
                                             <td className="px-6 py-4 whitespace-nowrap">
-                                                <div className="text-sm text-gray-900">8°C</div>
+                                                <div className="text-sm text-gray-900 font-extrabold">8°C</div>
                                                 <div className="text-sm text-gray-500">Bleu</div>
                                             </td>
                                             <td className="px-6 py-4 whitespace-nowrap">
@@ -217,7 +217,7 @@ function App() {
                                         </tr>
                                         <tr>
                                             <td className="px-6 py-4 whitespace-nowrap">
-                                                <div className="text-sm text-gray-900">8°G</div>
+                                                <div className="text-sm text-gray-900 font-extrabold">8°G</div>
                                                 <div className="text-sm text-gray-500">Jaune</div>
                                             </td>
                                             <td className="px-6 py-4 whitespace-nowrap">
@@ -231,7 +231,7 @@ function App() {
                                         </tr>
                                         <tr>
                                             <td className="px-6 py-4 whitespace-nowrap">
-                                                <div className="text-sm text-gray-900">8°L</div>
+                                                <div className="text-sm text-gray-900 font-extrabold">8°L</div>
                                                 <div className="text-sm text-gray-500">Rouge</div>
                                             </td>
                                             <td className="px-6 py-4 whitespace-nowrap">
@@ -245,7 +245,7 @@ function App() {
                                         </tr>
                                         <tr>
                                             <td className="px-6 py-4 whitespace-nowrap">
-                                                <div className="text-sm text-gray-900">8°T</div>
+                                                <div className="text-sm text-gray-900 font-extrabold">8°T</div>
                                                 <div className="text-sm text-gray-500">Bleu</div>
                                             </td>
                                             <td className="px-6 py-4 whitespace-nowrap">
@@ -259,7 +259,7 @@ function App() {
                                         </tr>
                                         <tr>
                                             <td className="px-6 py-4 whitespace-nowrap">
-                                                <div className="text-sm text-gray-900">9°A</div>
+                                                <div className="text-sm text-gray-900 font-extrabold">9°A</div>
                                                 <div className="text-sm text-gray-500">Rouge</div>
                                             </td>
                                             <td className="px-6 py-4 whitespace-nowrap">
@@ -273,7 +273,7 @@ function App() {
                                         </tr>
                                         <tr>
                                             <td className="px-6 py-4 whitespace-nowrap">
-                                                <div className="text-sm text-gray-900">9°C</div>
+                                                <div className="text-sm text-gray-900 font-extrabold">9°C</div>
                                                 <div className="text-sm text-gray-500">Jaune</div>
                                             </td>
                                             <td className="px-6 py-4 whitespace-nowrap">
@@ -287,7 +287,7 @@ function App() {
                                         </tr>
                                         <tr>
                                             <td className="px-6 py-4 whitespace-nowrap">
-                                                <div className="text-sm text-gray-900">9°L</div>
+                                                <div className="text-sm text-gray-900 font-extrabold">9°L</div>
                                                 <div className="text-sm text-gray-500">Bleu</div>
                                             </td>
                                             <td className="px-6 py-4 whitespace-nowrap">
@@ -301,7 +301,7 @@ function App() {
                                         </tr>
                                         <tr>
                                             <td className="px-6 py-4 whitespace-nowrap">
-                                                <div className="text-sm text-gray-900">9°O</div>
+                                                <div className="text-sm text-gray-900 font-extrabold">9°O</div>
                                                 <div className="text-sm text-gray-500">Jaune</div>
                                             </td>
                                             <td className="px-6 py-4 whitespace-nowrap">
@@ -315,7 +315,7 @@ function App() {
                                         </tr>
                                         <tr>
                                             <td className="px-6 py-4 whitespace-nowrap">
-                                                <div className="text-sm text-gray-900">9°S</div>
+                                                <div className="text-sm text-gray-900 font-extrabold">9°S</div>
                                                 <div className="text-sm text-gray-500">Bleu</div>
                                             </td>
                                             <td className="px-6 py-4 whitespace-nowrap">
